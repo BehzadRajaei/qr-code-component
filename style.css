@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width:375px) {
+    body{
+        background-color: hsl(212, 45%, 89%);
+    }
+    div.main{
+        background-color: hsl(0, 0%, 100%);
+        max-width: 90vw;
+        margin: auto;
+        margin-top: 16vh;
+        border-radius: 10px;
+    }
+    div.image{
+        max-width: 85vw;
+        margin: auto;
+        
+    }
+    img.qr-code{
+        max-width: 85vw;
+        border-radius: 12px;
+        margin-top: 3vh;
+       
+    }
+    h2.title{
+        font-family: Outfit;
+        text-align: center;
+        max-width: 82vw;
+        margin: auto;
+        margin-top: 3vh;
+    }
+    p.title{
+        font-family: Outfit;
+        color: hsl(217, 4%, 59%);
+        max-width: 82vw;
+        text-align: center;
+        margin: auto;
+        margin-top: 3vh;
+        padding-bottom: 3vh;
+       
+    }
+    
+} 
+/**********************************************************************************************************/
+@media screen and (min-width:375px){
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+div.main{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 23vw;
+    margin: auto;
+    margin-top: 16vh;
+    border-radius: 10px;
+}
+div.image{
+    max-width: 20vw;
+    margin: auto;
+    
+}
+img.qr-code{
+    max-width: 20vw;
+    border-radius: 12px;
+    margin-top: 3vh;
+   
+}
+h2.title{
+    font-family: Outfit;
+    text-align: center;
+    max-width: 18vw;
+    margin: auto;
+    margin-top: 3vh;
+}
+p.title{
+    font-family: Outfit;
+    color: hsl(217, 4%, 59%);
+    max-width: 18vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 3vh;
+    padding-bottom: 3vh;
+   
+}
+}
