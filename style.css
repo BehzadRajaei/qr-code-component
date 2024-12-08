@@ -1,91 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400..700&display=swap');
-*{
+    *{
     padding: 0;
     margin: 0;
-}
-@media screen and (max-width:375px) {
+    }
     body{
         background-color: hsl(212, 45%, 89%);
+        font-family: Outfit;
     }
     main{
         background-color: hsl(0, 0%, 100%);
-        max-width: 90vw;
-        margin: auto;
-        margin-top: 20vh;
+        display: flex;
+        width: 320px;
+        margin: 30vh auto 40vh;
         border-radius: 20px;
-    }
-    div.main{
-        max-width: 85vw;
-        margin: auto;
-        
+        flex-wrap: wrap; 
+        justify-content: center;
     }
     img.qr-code{
-        max-width: 85vw;
-        border-radius: 12px;
+        width: 288px;
+        border-radius: 20px;
         margin-top: 3vh;
-       
     }
-    h1.title{
-        font-family: Outfit;
+    h1.title{ 
+        width: 256px;
         text-align: center;
-        max-width: 70vw;
         margin: auto;
-        margin-top: 3vh;
-        font-size: large;
+        margin:2vh 0;
+        font-weight: 700;
+        font-size: 20px;
     }
-    p.title{
-        font-family: Outfit;
+    p.text{
         color: hsl(217, 4%, 59%);
-        max-width: 82vw;
+        width: 256px;
         text-align: center;
-        margin: auto;
-        margin-top: 3vh;
-        padding-bottom: 3vh;
-        font-size: 15px;
-       
+        margin:2vh auto;
+        font-size: 15px;  
     }
     
-} 
-/**********************************************************************************************************/
-@media screen and (min-width:375px){
-body{
-    background-color: hsl(212, 45%, 89%);
-}
-main{
-    background-color: hsl(0, 0%, 100%);
-    max-width: 23vw;
-    margin: auto;
-    margin-top: 20vh;
-    border-radius: 20px;
-}
-div.main{
-    max-width: 20vw;
-    margin: auto;
-    
-}
-img.qr-code{
-    max-width: 20vw;
-    border-radius: 12px;
-    margin-top: 3vh;
-   
-}
-h1.title{
-    font-family: Outfit;
-    text-align: center;
-    max-width: 15vw;
-    margin: auto;
-    margin-top: 3vh;
-    font-size: large;
-}
-p.title{
-    font-family: Outfit;
-    color: hsl(217, 4%, 59%);
-    max-width: 18vw;
-    text-align: center;
-    margin: auto;
-    margin-top: 3vh;
-    padding-bottom: 3vh;
-    font-size: 15px;
-   
-}
-}
