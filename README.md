@@ -23,7 +23,7 @@ This is my first chalenge in frontend development and i learn a little of Initia
 
 ### Screenshot
 
-![](./Screenshot%202024-12-07%20at%2019-17-01%20Frontend%20Mentor%20QR%20code%20component.png)
+![](./Screenshot%202024-12-08%20at%2018-38-54%20Frontend%20Mentor%20QR%20code%20component.png)
 
 ### Links
 
