@@ -11,8 +11,8 @@
         background-color: hsl(0, 0%, 100%);
         display: flex;
         width: 320px;
-        margin: 30vh auto 40vh;
-        border-radius: 20px;
+        margin: 150px auto;
+        border-radius: 25px;
         flex-wrap: wrap; 
         justify-content: center;
     }
@@ -23,6 +23,7 @@
     }
     h1.title{ 
         width: 256px;
+        color: hsl(218, 44%, 22%);
         text-align: center;
         margin: auto;
         margin:2vh 0;
@@ -30,10 +31,15 @@
         font-size: 20px;
     }
     p.text{
-        color: hsl(217, 4%, 59%);
+        color: hsl(218, 44%, 22%);
         width: 256px;
         text-align: center;
         margin:2vh auto;
         font-size: 15px;  
     }
+ @media screen and (min-width:1440px){
+    main{
+        margin: 230px auto
+    }
     
+ }   
